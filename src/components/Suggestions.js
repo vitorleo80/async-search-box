@@ -40,7 +40,7 @@ export default class Suggestions extends Component {
                                                     style={{
                                                         backgroundColor: highlightedIndex === index ? 'lightgray' : 'white'
                                                     }}>
-                                                    {item.name}
+                                                    {<Suggestion item={item} key={index} />}
                                                 </div>
                                             )) :
                                             <div className="dropdown-noresult">
