@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
-
+import Suggestions from './components/Suggestions'
 
 
 class App extends Component {
@@ -9,6 +9,7 @@ class App extends Component {
       <div className="box">
         <h2>Where are you going ?</h2>
         <p>Pick-up Location</p>
+        <Suggestions />
       </div>
     );
   }
